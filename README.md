@@ -8,7 +8,7 @@ mvn clean package
 cp lib/target/libbytes.so app/target/
 ```
 
-# Execute
+#3. Execute
 ```
 cd app/target/
 ./app
