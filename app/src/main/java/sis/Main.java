@@ -32,7 +32,6 @@ public class Main {
 
                     String result = cStringPointer.reinterpret(100).getString(0); // hasta primer null byte
                     System.out.println("Result: " + result);
-                    MethodHandles.lookup().findStatic(Object.class, "toString", MethodType.methodType(String.class, String.class)).invoke(result);
                 }
             }
         }catch (Throwable e){
